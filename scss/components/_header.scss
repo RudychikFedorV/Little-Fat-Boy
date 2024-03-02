@@ -1,0 +1,22 @@
+.header {
+  &__nav {
+    display: flex;
+    background: $background-nav;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-right: -20px;
+    @include tablet-small {
+      justify-content: center;
+    }
+    &-a {
+      font: var(--text-400-19);
+      color: $color-title;
+      padding-left: 20px;
+      transition: var(--transition);
+      &:hover {
+        color: $background-wrapper;
+      }
+    }
+  }
+}
