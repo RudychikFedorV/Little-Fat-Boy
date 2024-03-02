@@ -1,0 +1,38 @@
+html {
+  font-size: var(--html-fs);
+}
+body {
+  font-size: 16px;
+  font-family: var(--third-family);
+  background: rgb(30, 30, 30);
+}
+.wrapper {
+  max-width: 1200px;
+  margin-inline: auto;
+  background: #fdf9f1;
+  padding: 20px;
+}
+
+.h1-title {
+  color: $color-h1;
+  font: var(--h1-400-48);
+}
+.h2-title {
+  color: $color-h1;
+  font: var(--h2-400-37);
+}
+.desc {
+  color: $color-h1;
+  font: var(--desc-400-16);
+}
+.icon {
+  fill: $color-title;
+  transition: var(--transition);
+}
+
+.icon:hover {
+  fill: $background-nav;
+}
+img {
+  cursor: pointer;
+}
