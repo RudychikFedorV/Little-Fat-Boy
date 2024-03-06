@@ -1,0 +1,29 @@
+.recipes {
+  padding: 0 30px 125px 30px;
+  @include mobile {
+    padding: 0 10px 65px 10px;
+  }
+
+  &__title {
+    font: var(--text-400-84s);
+    color: $color-title;
+    margin-bottom: 60px;
+    @include tablet {
+      font: var(--text-400-72s);
+    }
+    @include mobile {
+      font: var(--text-400-52s);
+      margin-bottom: 50px;
+    }
+    @include mobile-small {
+      font: var(--text-400-32s);
+    }
+  }
+  &__info {
+    font: var(--text-400-24);
+    color: $color-title;
+    @include mobile {
+      font: var(--text-400-18);
+    }
+  }
+}

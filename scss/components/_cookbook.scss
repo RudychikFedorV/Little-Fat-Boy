@@ -21,8 +21,10 @@
   }
   &__img {
     transition: var(--transition);
-    &:hover {
-      scale: 1.2;
+    @include mobile {
+      &:hover {
+        scale: 1.2;
+      }
     }
   }
 }

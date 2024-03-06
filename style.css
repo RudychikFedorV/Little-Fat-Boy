@@ -125,8 +125,11 @@ p {
   --second-family: "Noto Sans TC", sans-serif;
   --third-family: "Roboto", sans-serif;
   --transition: 0.2s all ease-in-out;
+  --text-400-24: normal 400 24px / 125% var(--font-family);
   --text-400-20: normal 400 20px / 300% var(--font-family);
   --text-400-19: normal 400 19px / 316% var(--font-family);
+  --text-400-18: normal 400 18px / 125% var(--font-family);
+  --text-400-84s: normal 400 84px / 90% var(--second-family);
   --text-400-72s: normal 400 72px / 105% var(--second-family);
   --text-400-52s: normal 400 52px / 105% var(--second-family);
   --text-400-32s: normal 400 32px / 105% var(--second-family);
@@ -280,7 +283,34 @@ svg {
         font: var(--text-400-25s); } }
   .cookbook__img {
     transition: var(--transition); }
-    .cookbook__img:hover {
-      scale: 1.2; }
+    @media (max-width: 576px) {
+      .cookbook__img:hover {
+        scale: 1.2; } }
+
+.recipes {
+  padding: 0 30px 125px 30px; }
+  @media (max-width: 576px) {
+    .recipes {
+      padding: 0 10px 65px 10px; } }
+  .recipes__title {
+    font: var(--text-400-84s);
+    color: #2A1804;
+    margin-bottom: 60px; }
+    @media (max-width: 992px) {
+      .recipes__title {
+        font: var(--text-400-72s); } }
+    @media (max-width: 576px) {
+      .recipes__title {
+        font: var(--text-400-52s);
+        margin-bottom: 50px; } }
+    @media (max-width: 480px) {
+      .recipes__title {
+        font: var(--text-400-32s); } }
+  .recipes__info {
+    font: var(--text-400-24);
+    color: #2A1804; }
+    @media (max-width: 576px) {
+      .recipes__info {
+        font: var(--text-400-18); } }
 
 /*# sourceMappingURL=style.css.map */
