@@ -9,19 +9,9 @@ body {
 .wrapper {
   max-width: 1200px;
   margin-inline: auto;
-  background:$background-wrapper;
+  background: $background-wrapper;
   padding: 20px;
 }
-
-.h1-title {
-  // color: $color-h1;
-  // font: var(--h1-400-48);
-}
-.h2-title {
-  // color: $color-h1;
-  // font: var(--h2-400-37);
-}
-
 .icon {
   fill: $color-title;
   transition: var(--transition);

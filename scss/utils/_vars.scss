@@ -5,7 +5,9 @@
   --third-family: "Roboto", sans-serif;
   --transition: 0.2s all ease-in-out;
 
+  --text-400-20: normal 400 20px / 300% var(--font-family);
   --text-400-19: normal 400 19px / 316% var(--font-family);
+  --text-400-18s: normal 400 18px / 167% var(--second-family);
 }
 $color-h1: #333;
 $color-nav: #022a1e;
