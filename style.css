@@ -127,7 +127,12 @@ p {
   --transition: 0.2s all ease-in-out;
   --text-400-20: normal 400 20px / 300% var(--font-family);
   --text-400-19: normal 400 19px / 316% var(--font-family);
-  --text-400-18s: normal 400 18px / 167% var(--second-family); }
+  --text-400-72s: normal 400 72px / 105% var(--second-family);
+  --text-400-52s: normal 400 52px / 105% var(--second-family);
+  --text-400-32s: normal 400 32px / 105% var(--second-family);
+  --text-400-25s: normal 400 25px / 105% var(--second-family);
+  --text-400-18s: normal 400 18px / 167% var(--second-family);
+  --text-400-14s: normal 400 14px / 167% var(--second-family); }
 
 html {
   font-size: var(--html-fs); }
@@ -244,13 +249,7 @@ svg {
         color: #2A1804; }
         @media (max-width: 992px) {
           .welcome__section-block__info {
-            font: var(--text-400-12s); } }
-        @media (max-width: 576px) {
-          .welcome__section-block__info {
-            font: var(--text-400-8s); } }
-        @media (max-width: 480px) {
-          .welcome__section-block__info {
-            font: var(--text-400-6s); } }
+            font: var(--text-400-14s); } }
       .welcome__section-block .background {
         padding: 20px;
         background: #fff;
@@ -259,5 +258,29 @@ svg {
         @media (max-width: 992px) {
           .welcome__section-block .background {
             padding: 10px; } }
+
+.cookbook {
+  padding: 140px 30px 200px 30px; }
+  @media (max-width: 576px) {
+    .cookbook {
+      padding: 70px 30px 100px 30px; } }
+  .cookbook__title {
+    font: var(--text-400-72s);
+    color: #2A1804;
+    margin-bottom: 100px; }
+    @media (max-width: 992px) {
+      .cookbook__title {
+        font: var(--text-400-52s); } }
+    @media (max-width: 576px) {
+      .cookbook__title {
+        font: var(--text-400-32s);
+        margin-bottom: 50px; } }
+    @media (max-width: 480px) {
+      .cookbook__title {
+        font: var(--text-400-25s); } }
+  .cookbook__img {
+    transition: var(--transition); }
+    .cookbook__img:hover {
+      scale: 1.2; }
 
 /*# sourceMappingURL=style.css.map */

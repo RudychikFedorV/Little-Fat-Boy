@@ -1,0 +1,28 @@
+.cookbook {
+  padding: 140px 30px 200px 30px;
+
+  @include mobile {
+    padding: 70px 30px 100px 30px;
+  }
+  &__title {
+    font: var(--text-400-72s);
+    color: $color-title;
+    margin-bottom: 100px;
+    @include tablet {
+      font: var(--text-400-52s);
+    }
+    @include mobile {
+      font: var(--text-400-32s);
+      margin-bottom: 50px;
+    }
+    @include mobile-small {
+      font: var(--text-400-25s);
+    }
+  }
+  &__img {
+    transition: var(--transition);
+    &:hover {
+      scale: 1.2;
+    }
+  }
+}

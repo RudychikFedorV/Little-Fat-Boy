@@ -74,13 +74,7 @@
         color: $color-title;
 
         @include tablet {
-          font: var(--text-400-12s);
-        }
-        @include mobile {
-          font: var(--text-400-8s);
-        }
-        @include mobile-small {
-          font: var(--text-400-6s);
+          font: var(--text-400-14s);
         }
       }
       .background {
@@ -91,7 +85,6 @@
         @include tablet {
           padding: 10px;
         }
-        
       }
     }
   }
