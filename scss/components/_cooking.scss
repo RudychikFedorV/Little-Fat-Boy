@@ -1,0 +1,34 @@
+.cooking {
+  padding: 0 30px 120px 30px;
+  &__title {
+    font: var(--text-400-37s);
+    color: $color-title;
+    margin-bottom: 30px;
+  }
+  &__section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    &-block {
+      max-width: 280px;
+      &__img {
+        margin-bottom: 23px;
+      }
+      &__desc {
+        font: var(--text-400-24s);
+        color: $color-title;
+        margin-bottom: 7px;
+      }
+
+      &__text {
+        font: var(--text-400-13);
+        color: $color-title;
+      }
+      .text {
+        font: var(--text-400-16);
+      }
+    }
+  }
+}
