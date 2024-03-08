@@ -135,9 +135,11 @@ p {
   --text-400-72s: normal 400 72px / 105% var(--second-family);
   --text-400-52s: normal 400 52px / 105% var(--second-family);
   --text-400-37s: normal 400 37px / 125% var(--second-family);
+  --text-400-36s: normal 400 36px / 128% var(--second-family);
   --text-400-32s: normal 400 32px / 105% var(--second-family);
   --text-400-25s: normal 400 25px / 105% var(--second-family);
   --text-400-24s: normal 400 24px / 125% var(--second-family);
+  --text-400-23s: normal 400 23px / 130% var(--second-family);
   --text-400-18s: normal 400 18px / 167% var(--second-family);
   --text-400-14s: normal 400 14px / 167% var(--second-family); }
 
@@ -341,5 +343,58 @@ svg {
         color: #2A1804; }
       .cooking__section-block .text {
         font: var(--text-400-16); }
+
+.growing {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px; }
+  @media (max-width: 576px) {
+    .growing {
+      padding: 0 10px; } }
+  .growing__background-1 {
+    background: #d9d9d9; }
+  .growing .back {
+    max-width: 1140px;
+    max-height: 640px;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 30px; }
+    @media (max-width: 576px) {
+      .growing .back {
+        max-height: 340px; } }
+  .growing__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 200px; }
+    @media (max-width: 576px) {
+      .growing__block {
+        margin-bottom: 80px; } }
+    .growing__block-text {
+      max-width: 680px; }
+      .growing__block-text__title {
+        font: var(--text-400-23s);
+        color: #2A1804; }
+      .growing__block-text__info {
+        font: var(--text-400-24);
+        color: #2A1804; }
+    .growing__block-btn {
+      font: var(--text-400-24s);
+      color: #2A1804;
+      transition: var(--transition); }
+      .growing__block-btn:hover {
+        color: #fdf9f1;
+        background: #2A1804; }
+    .growing__block .btn {
+      border: 1px solid #2A1804;
+      padding: 11px 21px; }
+  .growing__title {
+    font: var(--text-400-36s);
+    color: #2A1804;
+    margin-bottom: 60px; }
+  .growing__background-2 {
+    background: #ceedd6; }
 
 /*# sourceMappingURL=style.css.map */
