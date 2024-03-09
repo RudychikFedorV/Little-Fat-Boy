@@ -6,6 +6,7 @@
 @import 'utils/mixins';
 
 // layout
+@import 'layout/animista';
 @import 'layout/base';
 @import 'layout/scroll';
 
@@ -16,4 +17,5 @@
 @import 'components/recipes';
 @import 'components/cooking';
 @import 'components/growing';
+@import 'components/menu';
 @import 'components/footer';
