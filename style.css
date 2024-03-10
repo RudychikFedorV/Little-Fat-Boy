@@ -144,6 +144,7 @@ p {
   --text-400-24s: normal 400 24px / 125% var(--second-family);
   --text-400-23s: normal 400 23px / 130% var(--second-family);
   --text-400-22s: normal 400 22px / 136% var(--second-family);
+  --text-400-21s: normal 400 21px / 143% var(--second-family);
   --text-400-23s: normal 400 23px / 130% var(--second-family);
   --text-400-18s: normal 400 18px / 167% var(--second-family);
   --text-400-14s: normal 400 14px / 167% var(--second-family); }
@@ -249,7 +250,7 @@ svg {
         gap: 50px; } }
     @media (max-width: 576px) {
       .welcome__section {
-        padding: 0 40px; } }
+        padding: 0 10px; } }
     .welcome__section-block:nth-child(1):hover {
       left: 40px; }
       @media (max-width: 768px) {
@@ -490,5 +491,40 @@ svg {
         .latestRecipes__section-block__info-inform {
           font: var(--text-400-14);
           color: #2A1804; }
+
+.popular {
+  padding: 150px 30px 100px 30px; }
+  @media (max-width: 576px) {
+    .popular {
+      padding: 80px 10px 50px 10px; } }
+  .popular-title {
+    font: var(--text-400-38s);
+    color: #2A1804;
+    margin-bottom: 80px; }
+    @media (max-width: 576px) {
+      .popular-title {
+        font: var(--text-400-32s); } }
+  .popular-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; }
+    @media (max-width: 992px) {
+      .popular-section {
+        flex-wrap: wrap;
+        row-gap: 100px; } }
+    .popular-section__block {
+      max-width: 383px;
+      transition: var(--transition); }
+      .popular-section__block:hover {
+        scale: 1.2; }
+      .popular-section__block-img {
+        margin-bottom: 30px; }
+      .popular-section__block-desc {
+        font: var(--text-400-21s);
+        color: #2A1804;
+        margin-bottom: 20px; }
+      .popular-section__block-info {
+        font: var(--text-400-15);
+        color: #2A1804; }
 
 /*# sourceMappingURL=style.css.map */

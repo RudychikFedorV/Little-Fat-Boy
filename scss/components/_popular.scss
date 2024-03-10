@@ -1,0 +1,42 @@
+.popular {
+  padding: 150px 30px 100px 30px;
+  @include mobile {
+    padding: 80px 10px 50px 10px;
+  }
+  &-title {
+    font: var(--text-400-38s);
+    color: $color-title;
+    margin-bottom: 80px;
+    @include mobile {
+      font: var(--text-400-32s);
+    }
+  }
+  &-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    @include tablet {
+      flex-wrap: wrap;
+      row-gap: 100px;
+    }
+    &__block {
+      max-width: 383px;
+      transition: var(--transition);
+      &:hover {
+        scale: 1.2;
+      }
+      &-img {
+        margin-bottom: 30px;
+      }
+      &-desc {
+        font: var(--text-400-21s);
+        color: $color-title;
+        margin-bottom: 20px;
+      }
+      &-info {
+        font: var(--text-400-15);
+        color: $color-title;
+      }
+    }
+  }
+}
