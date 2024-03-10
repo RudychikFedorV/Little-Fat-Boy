@@ -1,0 +1,51 @@
+.latestRecipes {
+  padding: 0 30px;
+  @include mobile {
+    padding: 0 10px;
+  }
+  &__title {
+    font: var(--text-400-38s);
+    color: $color-title;
+    margin-bottom: 50px;
+  }
+  &__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    @include tablet {
+      grid-template-columns: 1fr;
+      row-gap: 50px;
+    }
+    &-block {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      @include mobile {
+        display: flex;
+        flex-direction: column;
+      }
+      &__img {
+        transition: var(--transition);
+        &:hover {
+          scale: 1.1;
+        }
+      }
+      &__info {
+        max-width: 391px;
+        @include tablet {
+          max-width: 700px;
+        }
+
+        &-desc {
+          font: var(--text-400-23s);
+          color: $color-title;
+          margin-bottom: 10px;
+        }
+        &-inform {
+          font: var(--text-400-14);
+          color: $color-title;
+        }
+      }
+    }
+  }
+}
