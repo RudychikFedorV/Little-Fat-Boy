@@ -527,4 +527,29 @@ svg {
         font: var(--text-400-15);
         color: #2A1804; }
 
+.dish {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+  row-gap: 80px; }
+  @media (max-width: 576px) {
+    .dish {
+      padding: 50px 10px; } }
+  .dish-block {
+    max-width: 280px;
+    transition: var(--transition); }
+    .dish-block:hover {
+      scale: 1.2; }
+    .dish-block__img {
+      margin-bottom: 20px; }
+    .dish-block__title {
+      font: var(--text-400-22s);
+      color: #2A1804;
+      margin-bottom: 10px; }
+    .dish-block__docs {
+      font: var(--text-400-14);
+      color: #2A1804; }
+
 /*# sourceMappingURL=style.css.map */
