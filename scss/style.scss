@@ -1,24 +1,25 @@
 // vendors
-@import 'vendors/reset';
+@import "vendors/reset";
 
 // utils
-@import 'utils/vars';
-@import 'utils/mixins';
+@import "utils/vars";
+@import "utils/mixins";
 
 // layout
-@import 'layout/animista';
-@import 'layout/base';
-@import 'layout/scroll';
+@import "layout/animista";
+@import "layout/base";
+@import "layout/scroll";
 
 // components
-@import 'components/header';
-@import 'components/welcome';
-@import 'components/cookbook';
-@import 'components/recipes';
-@import 'components/cooking';
-@import 'components/growing';
-@import 'components/menu';
-@import 'components/latestRecipes';
-@import 'components/popular';
-@import 'components/dish';
-@import 'components/footer';
+@import "components/header";
+@import "components/welcome";
+@import "components/cookbook";
+@import "components/recipes";
+@import "components/cooking";
+@import "components/growing";
+@import "components/menu";
+@import "components/latestRecipes";
+@import "components/popular";
+@import "components/dish";
+@import "components/category";
+@import "components/footer";

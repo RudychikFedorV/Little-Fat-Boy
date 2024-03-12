@@ -1,0 +1,32 @@
+.category {
+  padding: 150px 30px;
+  @include tablet {
+    padding: 100px 10px;
+  }
+  &-title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #2a1804;
+    margin-bottom: 50px;
+  }
+  &-section {
+    @include f-s-c;
+    gap: 20px;
+    &__block {
+      max-width: 190px;
+      &-desc {
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 147%;
+        letter-spacing: 0.03em;
+        color: #2a1804;
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
