@@ -4,13 +4,8 @@
     padding: 100px 10px;
   }
   &-title {
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 136%;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #2a1804;
+    font: var(--text-400-22s);
+    color: $color-title;
     margin-bottom: 50px;
   }
   &-section {
@@ -19,12 +14,8 @@
     &__block {
       max-width: 190px;
       &-desc {
-        font-family: var(--third-family);
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 147%;
-        letter-spacing: 0.03em;
-        color: #2a1804;
+        font: var(--text-400-15t);
+        color: $color-title;
         margin-bottom: 25px;
       }
     }

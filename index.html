@@ -370,13 +370,31 @@
                 </div>
             </div>
         </section>
-
-        <footer class="footer"></footer>
+        <footer class="footer">
+            <div class="footer-block1">
+                <p class="footer-block1__desc">Fresh updates straight to your inbox</p>
+                <p class="footer-block1__info">© Little Fat Boy <span id="copyright"></span></p>
+            </div>
+            <div class="footer-block2">
+                <div class="footer-block2__rectangle">
+                    <div class="footer-block2__rectangle-rectangle1"></div>
+                    <div class="footer-block2__rectangle-rectangle2"></div>
+                </div>
+                <div class="footer-block2__icons">
+                    <a href="/" class="footer-block2__icons-icon">Instagram</a>
+                    <a href="/" class="footer-block2__icons-icon">Youtube</a>
+                    <a href="/" class="footer-block2__icons-icon">Email</a>
+                </div>
+            </div>
+        </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script src="owl/owl.carousel.min.js"></script>
     <script src="owl/owl.script.js"></script>
+    <script>
+        document.getElementById("copyright").textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>

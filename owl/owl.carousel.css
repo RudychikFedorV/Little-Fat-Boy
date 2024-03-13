@@ -32,7 +32,7 @@
 .owl-carousel .owl-stage-outer {
 	position: relative;
 	overflow: hidden;
-	border-radius: 30px;
+	/* border-radius: 30px; */
 	/* fix for flashing background */
 	-webkit-transform: translate3d(0px, 0px, 0px);
 }
